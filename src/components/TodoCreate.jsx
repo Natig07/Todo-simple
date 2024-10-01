@@ -13,8 +13,6 @@ function TodoCreate() {
     editable: false
   })
   const dispatch = useDispatch()
-  console.log(todo.id)
-
   return (
     <Flex vertical className='todo-section'>
       <h1>To do App..</h1>
